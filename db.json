@@ -1,0 +1,32 @@
+{
+  "config": {
+    "start_money": 5000,
+    "start_date": "26/05/2025",
+    "end_money": 7000,
+    "end_date": "26/06/2025"
+  },
+  "transactions": [
+    {
+      "amount": 3000,
+      "isIncome": true,
+      "description": "projeto",
+      "date": "25/05/2025",
+      "transactionid": "0b407eb5-c24c-4c75-9a3c-a1e5d3034324"
+    },
+    {
+      "amount": 700,
+      "isIncome": false,
+      "description": "aluguel",
+      "date": "25/05/2025",
+      "transactionid": "6b673807-7ac2-4295-a8c2-11069035a7f2"
+    },
+    {
+      "amount": 2000,
+      "isIncome": true,
+      "description": "",
+      "date": "25/05/2025",
+      "transactionid": "ebaa7351-75f3-4d65-8177-bb4afd7e5a71"
+    }
+  ],
+  "spendings": []
+}
