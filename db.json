@@ -1,9 +1,33 @@
 {
+  "users": [
+    {
+      "id": "87d5b1d3-2eb6-41fb-97c0-d964eff8e95c",
+      "username": "mateus",
+      "password": "$2b$10$ikv8d1FF3UhYAbqJaQ0tqu2N.L4g9gzzykARDM93Cvs77oyUKu5oy"
+    },
+    {
+      "id": "22821d56-7e51-404e-a62e-6d02be22aeb1",
+      "username": "mateus2",
+      "password": "$2b$10$W82GAefSug0LkQVarb8yte5meyypqnuotZj027ff1b2qlgidhCJhC"
+    }
+  ],
   "config": {
     "start_money": 5000,
     "start_date": "26/05/2025",
     "end_money": 7000,
-    "end_date": "26/06/2025"
+    "end_date": "26/06/2025",
+    "22821d56-7e51-404e-a62e-6d02be22aeb1": {
+      "start_money": 0,
+      "start_date": "27/05/2025",
+      "end_money": 1,
+      "end_date": "28/05/2025"
+    },
+    "87d5b1d3-2eb6-41fb-97c0-d964eff8e95c": {
+      "start_money": 2,
+      "start_date": "29/05/2025",
+      "end_money": 3,
+      "end_date": "30/05/2025"
+    }
   },
   "transactions": [
     {
@@ -26,7 +50,38 @@
       "description": "",
       "date": "25/05/2025",
       "transactionid": "ebaa7351-75f3-4d65-8177-bb4afd7e5a71"
+    },
+    {
+      "amount": 111,
+      "isIncome": false,
+      "description": "",
+      "date": "27/05/2025",
+      "transactionid": "29746135-d279-41b0-99de-518f79467f02",
+      "userId": "22821d56-7e51-404e-a62e-6d02be22aeb1"
+    },
+    {
+      "amount": 222,
+      "isIncome": true,
+      "description": "",
+      "date": "27/05/2025",
+      "transactionid": "0ef34933-d975-4674-ba2c-661c36de298b",
+      "userId": "87d5b1d3-2eb6-41fb-97c0-d964eff8e95c"
     }
   ],
-  "spendings": []
+  "spendings": [
+    {
+      "amount": 90,
+      "description": "",
+      "date": "27/05/2025",
+      "spendingid": "ff61b6aa-55bb-40f8-833f-459e862879b1",
+      "userId": "87d5b1d3-2eb6-41fb-97c0-d964eff8e95c"
+    },
+    {
+      "amount": 144,
+      "description": "teste",
+      "date": "27/05/2025",
+      "spendingid": "74cabe82-6322-4e37-aa93-f1ad8c9615bd",
+      "userId": "22821d56-7e51-404e-a62e-6d02be22aeb1"
+    }
+  ]
 }
