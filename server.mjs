@@ -227,7 +227,7 @@ app.get('/daily-allowance/:date', async (req, res) => {
     .eq('user_id', req.user.userId);
 
   let remainingMoney = config.start_money - config.end_money +
-    (transactions?.reduce((sum, t) => sum + (t.isIncome ? t.amount : -t.amount), 0) || 0);
+    (transactions?.reduce((sum, t) => sum + (t.is_income ? t.amount : -t.amount), 0) || 0);
 
   let current = start;
 
